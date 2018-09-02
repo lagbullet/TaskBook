@@ -1,0 +1,7 @@
+C:\Users\Alexander\source\repos\BookApp\BookApp\bin\Debug\BookApp.exe.config
+C:\Users\Alexander\source\repos\BookApp\BookApp\bin\Debug\BookApp.exe
+C:\Users\Alexander\source\repos\BookApp\BookApp\bin\Debug\BookApp.pdb
+C:\Users\Alexander\source\repos\BookApp\BookApp\obj\Debug\BookApp.csprojAssemblyReference.cache
+C:\Users\Alexander\source\repos\BookApp\BookApp\obj\Debug\BookApp.csproj.CoreCompileInputs.cache
+C:\Users\Alexander\source\repos\BookApp\BookApp\obj\Debug\BookApp.exe
+C:\Users\Alexander\source\repos\BookApp\BookApp\obj\Debug\BookApp.pdb
