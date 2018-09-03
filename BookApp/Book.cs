@@ -30,6 +30,8 @@ namespace BookApp
             XmlSerializer serializer = new XmlSerializer(GetType());
             tw = new XmlTextWriter(sw);
             serializer.Serialize(tw, this);
+            sw.Dispose();
+            tw.Dispose();
             return sw.ToString();
         }
 
@@ -37,7 +39,9 @@ namespace BookApp
         {
             var stringReader = new StringReader(xmlText);
             var serializer = new XmlSerializer(typeof(Book));
-            return serializer.Deserialize(stringReader) as Book;
+            var ser = serializer.Deserialize(stringReader);
+            stringReader.Dispose();
+            return ser as Book;
         }
 
         public string ToJSON()
