@@ -5,3 +5,10 @@ C:\Users\Alexander\source\repos\BookApp\BookApp\obj\Debug\BookApp.csprojAssembly
 C:\Users\Alexander\source\repos\BookApp\BookApp\obj\Debug\BookApp.csproj.CoreCompileInputs.cache
 C:\Users\Alexander\source\repos\BookApp\BookApp\obj\Debug\BookApp.exe
 C:\Users\Alexander\source\repos\BookApp\BookApp\obj\Debug\BookApp.pdb
+C:\Users\User\source\repos\BookApp\BookApp\bin\Debug\BookApp.exe.config
+C:\Users\User\source\repos\BookApp\BookApp\bin\Debug\BookApp.exe
+C:\Users\User\source\repos\BookApp\BookApp\bin\Debug\BookApp.pdb
+C:\Users\User\source\repos\BookApp\BookApp\obj\Debug\BookApp.csprojAssemblyReference.cache
+C:\Users\User\source\repos\BookApp\BookApp\obj\Debug\BookApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\BookApp\BookApp\obj\Debug\BookApp.exe
+C:\Users\User\source\repos\BookApp\BookApp\obj\Debug\BookApp.pdb

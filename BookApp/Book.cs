@@ -25,23 +25,22 @@ namespace BookApp
         }
         public string ToXML()
         {
-            StringWriter sw = new StringWriter();
-            XmlTextWriter tw = null;
-            XmlSerializer serializer = new XmlSerializer(GetType());
-            tw = new XmlTextWriter(sw);
-            serializer.Serialize(tw, this);
-            sw.Dispose();
-            tw.Dispose();
-            return sw.ToString();
+            using (StringWriter sw = new StringWriter())
+            using (XmlTextWriter tw = new XmlTextWriter(sw))
+            {
+                XmlSerializer serializer = new XmlSerializer(GetType());
+                serializer.Serialize(tw, this);
+                return sw.ToString();
+            }
         }
 
         public static Book FromXML(string xmlText)
         {
-            var stringReader = new StringReader(xmlText);
-            var serializer = new XmlSerializer(typeof(Book));
-            var ser = serializer.Deserialize(stringReader);
-            stringReader.Dispose();
-            return ser as Book;
+            using (var stringReader = new StringReader(xmlText))
+            {
+                var serializer = new XmlSerializer(typeof(Book));
+                return serializer.Deserialize(stringReader) as Book;
+            }
         }
 
         public string ToJSON()
